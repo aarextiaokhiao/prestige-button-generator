@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'MonospaceTypewriter';
+	src: URL('MonospaceTypewriter.ttf') format('truetype');
+  }
+
 body{
 	background: #ffffff
 }
@@ -27,8 +32,8 @@ h1{
     cursor: pointer;
 }
 
-.tabbtn {
-	font-weight: bold;
-	transition-duration: 0.2s;
-    cursor: pointer;
+.tabbtn:hover {
+    color: #FFF;
+    background: #4980CC;
+	cursor: pointer
 }
